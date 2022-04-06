@@ -13,7 +13,7 @@ Install laravel 8:
 composer create-project --prefer-dist laravel/laravel rest-api "8.*"
 
 Virtual host
-<VirtualHost *:80>
+**<VirtualHost *:80>
          ServerName laravel.local
          ServerAlias 127.0.0.1
          DocumentRoot /var/www/html/restapi/public
@@ -24,18 +24,18 @@ Virtual host
              RewriteCond %{REQUEST_FILENAME} !-d
              RewriteRule . index.php
          </Directory>
-</VirtualHost>
+</VirtualHost>**
 
 
 Install JWT via composer:
-composer require tymon/jwt-auth:dev-develop --prefer-source
+**composer require tymon/jwt-auth:dev-develop --prefer-source
 php artisan vendor:publish
-enter serial no for service provider
+enter serial no for service provider**
 
 create JWT secret key:
-php artisan jwt:secret
+**php artisan jwt:secret**
 
-In config/auth.php
+**In config/auth.php
 set default guard as api
 'defaults' => [
         'guard' => 'api',
@@ -44,7 +44,7 @@ set default guard as api
     
     
 add driver as jwt
-'guards' => [
+**'guards' => [
         'web' => [
             'driver' => 'session',
             'provider' => 'users',
@@ -53,17 +53,17 @@ add driver as jwt
             'driver' => 'jwt',
             'provider' => 'users',
         ],
-    ],
+    ],****
     
 in models/users  implement JWTSubject and add methods
-getJWTIdentifer() 
-getJWTCustomClaims()    
+**getJWTIdentifer() 
+getJWTCustomClaims()    **
 
 create rescource controller:
--mcr
+**-mcr**
 
 Tinker:
-php artisan tinker
+**php artisan tinker**
 
 Using tinker we can modify data without using any routes
- App\Models\User::factory()->count(10)->create()
+** App\Models\User::factory()->count(10)->create()**
