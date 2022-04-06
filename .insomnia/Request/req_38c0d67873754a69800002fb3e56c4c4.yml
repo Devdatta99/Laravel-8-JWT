@@ -1,0 +1,33 @@
+_id: req_38c0d67873754a69800002fb3e56c4c4
+type: Request
+parentId: fld_7e7864a3084c4894a9ca917d2c4b3cb5
+modified: 1649265545317
+created: 1649265441988
+url: http://laravel.local/api/todos/51
+name: Update Todo
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "this is a title",
+    	"body" : "this is a body",
+    	"completed": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e5e0ed2e79f34eb0b65c6239a14331d7
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sYXJhdmVsLmxvY2FsXC9hcGlcL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjQ5MjYzNjQ3LCJleHAiOjE2NDkzNTAwNDcsIm5iZiI6MTY0OTI2MzY0NywianRpIjoibEJ5M0I4aFJkQlE5WG1VdSIsInN1YiI6NywicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.W-p12yzQBxRgduRRl5dm74-wr4QfsKhbsZNvUvtuPSc
+metaSortKey: -1649091677179.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

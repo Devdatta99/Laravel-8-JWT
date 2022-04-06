@@ -1,0 +1,31 @@
+_id: req_b1bf500b8750426bb0b9c722869d1dec
+type: Request
+parentId: fld_7e7864a3084c4894a9ca917d2c4b3cb5
+modified: 1649265387883
+created: 1649263932845
+url: http://laravel.local/api/auth/register
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |+
+    {"email" : "zlatan@example.net",
+    	"name": "Zlatan",
+    "password" : "123456",
+    "password_confirmation" : "123456"}
+    	
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4803857de7ec4abbbcb98bcd4ae23752
+authentication: {}
+metaSortKey: -1649091677248
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

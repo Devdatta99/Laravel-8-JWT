@@ -1,0 +1,23 @@
+_id: req_3a7ad63469ad4f02a904046fafd5e216
+type: Request
+parentId: fld_7e7864a3084c4894a9ca917d2c4b3cb5
+modified: 1649263660855
+created: 1649094799325
+url: http://laravel.local/api/auth/profile
+name: Profile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sYXJhdmVsLmxvY2FsXC9hcGlcL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjQ5MjYzNjQ3LCJleHAiOjE2NDkzNTAwNDcsIm5iZiI6MTY0OTI2MzY0NywianRpIjoibEJ5M0I4aFJkQlE5WG1VdSIsInN1YiI6NywicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.W-p12yzQBxRgduRRl5dm74-wr4QfsKhbsZNvUvtuPSc
+metaSortKey: -1649091677223
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

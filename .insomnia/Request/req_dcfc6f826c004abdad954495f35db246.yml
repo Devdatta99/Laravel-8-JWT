@@ -1,0 +1,24 @@
+_id: req_dcfc6f826c004abdad954495f35db246
+type: Request
+parentId: fld_7e7864a3084c4894a9ca917d2c4b3cb5
+modified: 1649095917824
+created: 1649094902829
+url: http://laravel.local/api/auth/refresh
+name: Refresh Token
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sYXJhdmVsLmxvY2FsXC9hcGlcL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjQ5MDkzOTUwLCJleHAiOjE2NDkxODAzNTAsIm5iZiI6MTY0OTA5Mzk1MCwianRpIjoicXZid0FLS0dtWHg3dmFsSCIsInN1YiI6NywicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.RD1yWuCHAiyPAvxpVI-uy2wERpmY446MfU_5TqoVVwc
+  disabled: false
+metaSortKey: -1649091677173
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_851c62735d474ae48400109c7af3274c
+type: Request
+parentId: fld_7e7864a3084c4894a9ca917d2c4b3cb5
+modified: 1649263640872
+created: 1649091677173
+url: http://laravel.local/api/auth/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |+
+    {"email" : "kaycee70@example.net",
+    	"password": "password" }
+    	
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4803857de7ec4abbbcb98bcd4ae23752
+authentication: {}
+metaSortKey: -1649091677273
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
